@@ -6,12 +6,12 @@ README = (HERE / 'README.md').read_text()
 requires = (HERE / 'requirements.txt').read_text().split('\n')
 
 setup(
-    name="EncreMagique",
+    name="encre-magique",
     version="1.0.0",
-    description="A multithreaded tool for searching and downloading images from popular search engines. It is straightforward to set up and run!",
+    description="",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/datnnt1997/CygnusX1",
+    url="https://github.com/Duckweeds7/EncreMagique",
     author="Duckweeds7",
     author_email="root@duckweeds7.com",
     license="MIT",
@@ -23,8 +23,4 @@ setup(
     packages=find_packages(exclude=('datasets', 'outputs')),
     include_package_data=True,
     install_requires=requires,
-    entry_points="""
-    [console_scripts] 
-    cygnusx1=cygnusx1.main:run
-    """
 )
